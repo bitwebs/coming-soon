@@ -53,6 +53,7 @@ header .logo {
   top: 0;
   bottom: 0;
   height: 260px;
+  width: 50%;
 }
 .content h1 {
   color: #fff;
@@ -161,6 +162,9 @@ header .logo {
     }
     #countdown > div > span {
       font-size: 11px;
+    }
+    .content {
+      width: 100%;
     }
     
 }
