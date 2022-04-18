@@ -28,8 +28,8 @@ body {
   background: #000;
   margin: 0;
   padding: 0;
-  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
 }
 
 /**********************************/
@@ -58,20 +58,20 @@ header .logo {
   color: #fff;
   font-size: 4em;
   position: relative;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 1vw;
   font-family: 'Open Sans',sans-serif;
 }
 .content h2 {
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.7em;
   margin-bottom: 50px;
   font-family: 'Open Sans',sans-serif;
 }
 .content h5 {
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 0.5em;
   margin-bottom: 50px;
   font-family: 'Open Sans',sans-serif;
