@@ -60,21 +60,21 @@ header .logo {
   position: relative;
   font-weight: 400;
   margin: 0 1vw;
-  font-family: 'Baloo Bhaijaan',serif;
+  font-family: 'Open Sans',sans-serif;
 }
 .content h2 {
   color: #fff;
   font-weight: 500;
   font-size: 1.7em;
   margin-bottom: 50px;
-  font-family: 'Playfair Display',serif;
+  font-family: 'Open Sans',sans-serif;
 }
 .content h5 {
   color: #fff;
   font-weight: 100;
   font-size: 0.5em;
   margin-bottom: 50px;
-  font-family: 'Playfair Display',serif;
+  font-family: 'Open Sans',sans-serif;
 }
 .content a {
   font-size: 16px;
@@ -134,7 +134,7 @@ header .logo {
   letter-spacing: 2px;
   text-align: center;
   color: #ccc;
-  font-family: 'Baloo Bhaijaan',serif;
+  font-family: 'Open Sans',sans-serif;
 }
 
 #countdown > div > span {
