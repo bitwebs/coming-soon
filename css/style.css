@@ -117,7 +117,7 @@ header .logo {
   left: 0;
   right: 0;
   height: 100px;
-  width: 50%;
+  width: 100%;
 }
 
 #countdown.show {
@@ -162,4 +162,5 @@ header .logo {
     #countdown > div > span {
       font-size: 11px;
     }
+    
 }
