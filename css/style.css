@@ -40,7 +40,7 @@ header {
 }
 
 header .logo {
-  height: 42px;
+  height: 62px;
   box-sizing: content-box;
 }
 .content {
@@ -66,6 +66,13 @@ header .logo {
   color: #fff;
   font-weight: 500;
   font-size: 1.7em;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display',serif;
+}
+.content h5 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 0.5em;
   margin-bottom: 50px;
   font-family: 'Playfair Display',serif;
 }
@@ -105,8 +112,8 @@ header .logo {
 /*******    3.0 Countdown   *******/
 /**********************************/
 #countdown {
-  margin: 2vh auto 4vh;
-  top: 50%;
+  margin 2vh auto 4vh;
+  top: 5%;
   left: 0;
   right: 0;
   height: 100px;
