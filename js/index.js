@@ -57,17 +57,17 @@ $(document).ready(function () {
             ratio: 256,
             divclass: "starfield"
         },
-        resizer: function() {
-            var oldStar = this.star,
-                initW = this.context.canvas.width,
-                initH = this.context.canvas.height;
-            this.w = this.$el.width(), this.h = this.$el.height(), this.x = Math.round(this.w / 2), this.y = Math.round(this.h / 2), this.portrait = this.w < this.h;
-            var ratX = this.w / initW,
-                ratY = this.h / initH;
-            this.context.canvas.width = this.w, this.context.canvas.height = this.h;
-            for (var i = 0; i < this.n; i++) this.star[i][0] = oldStar[i][0] * ratX, this.star[i][1] = oldStar[i][1] * ratY, this.star[i][3] = this.x + this.star[i][0] / this.star[i][2] * this.star_ratio, this.star[i][4] = this.y + this.star[i][1] / this.star[i][2] * this.star_ratio;
-            that.context.fillStyle = that.settings.bgColor, this.context.strokeStyle = this.settings.starColor
-        },
+        // resizer: function() {
+        //     var oldStar = this.star,
+        //         initW = this.context.canvas.width,
+        //         initH = this.context.canvas.height;
+        //     this.w = this.$el.width(), this.h = this.$el.height(), this.x = Math.round(this.w / 2), this.y = Math.round(this.h / 2), this.portrait = this.w < this.h;
+        //     var ratX = this.w / initW,
+        //         ratY = this.h / initH;
+        //     this.context.canvas.width = this.w, this.context.canvas.height = this.h;
+        //     for (var i = 0; i < this.n; i++) this.star[i][0] = oldStar[i][0] * ratX, this.star[i][1] = oldStar[i][1] * ratY, this.star[i][3] = this.x + this.star[i][0] / this.star[i][2] * this.star_ratio, this.star[i][4] = this.y + this.star[i][1] / this.star[i][2] * this.star_ratio;
+        //     that.context.fillStyle = that.settings.bgColor, this.context.strokeStyle = this.settings.starColor
+        // },
         init: function() {
             this.settings = $.extend({}, this.defaults, this.options);
             var url = document.location.href;
