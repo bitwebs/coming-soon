@@ -94,21 +94,21 @@ $(document).ready(function () {
                 that.loop()
             })
         },
-        move: function() {
-            function handleOrientation(event) {
-                if (null !== event.beta && null !== event.gamma) {
-                    var x = event.gamma,
-                        y = event.beta;
-                    that.portrait || (x = -1 * event.beta, y = event.gamma), that.cursor_x = that.w / 2 + 5 * x, that.cursor_y = that.h / 2 + 5 * y
-                }
-            }
+        // move: function() {
+        //     function handleOrientation(event) {
+        //         if (null !== event.beta && null !== event.gamma) {
+        //             var x = event.gamma,
+        //                 y = event.beta;
+        //             that.portrait || (x = -1 * event.beta, y = event.gamma), that.cursor_x = that.w / 2 + 5 * x, that.cursor_y = that.h / 2 + 5 * y
+        //         }
+        //     }
 
-            function handleMousemove(event) {
-                that.cursor_x = event.pageX || event.clientX + doc.scrollLeft - doc.clientLeft, that.cursor_y = event.pageY || event.clientY + doc.scrollTop - doc.clientTop
-            }
-            var doc = document.documentElement;
-            this.orientationSupport && !this.desktop ? window.addEventListener("deviceorientation", handleOrientation, !1) : window.addEventListener("mousemove", handleMousemove, !1)
-        },
+        //     function handleMousemove(event) {
+        //         that.cursor_x = event.pageX || event.clientX + doc.scrollLeft - doc.clientLeft, that.cursor_y = event.pageY || event.clientY + doc.scrollTop - doc.clientTop
+        //     }
+        //     var doc = document.documentElement;
+        //     this.orientationSupport && !this.desktop ? window.addEventListener("deviceorientation", handleOrientation, !1) : window.addEventListener("mousemove", handleMousemove, !1)
+        // },
         stop: function() {
             window.cancelAnimationFrame(animId), isPlaying = !1
         },
